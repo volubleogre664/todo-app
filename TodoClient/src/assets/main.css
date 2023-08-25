@@ -1,0 +1,30 @@
+@import "./base.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.app {
+    width: 600px;
+    height: 90%;
+    overflow: hidden;
+    max-height: 900px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+}
